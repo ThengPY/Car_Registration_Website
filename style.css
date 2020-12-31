@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+html,
+body {
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 1rem;
+    letter-spacing: .08rem;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    scroll-padding-top: 4.3rem;
+}
+
+p {
+    line-height: 1.6;
+    max-width: 600px;
+}
+
+/* BACKGROUND IMAGE */
+.container-fluid.background {
+    height: 100vh;
+    width: 100%;
+    background-image: url('img/bg-img.jpg');
+    background-position: center;
+    /*background-attachment: fixed;*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, .35);
+    margin-bottom: 2rem;
+    /*overflow-x: hidden!important;*/
+}
+
+/* NAVIGATION BAR */
+.navbar-dark {
+    background-color: rgba(0, 0, 0, .75) !important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.nav-link,
+.navbar-brand {
+    color: rgb(255, 255, 255) !important;
+    font-weight: 500 !important;
+    font-size: 1.4rem;
+    letter-spacing: .15rem !important;
+    word-spacing: 1rem;
+}
+
+.nav-link:hover {
+    border-bottom: 1px solid white;
+}
+
+.active {
+    color: #4feaff !important;
+    border-bottom: 1px solid #4feaff;
+}
+
+.nav-item:hover .nav-link.active {
+    pointer-events: none;
+}
+
+.navbar {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+.navbar-hide {
+    pointer-events: none;
+    opacity: 0;
+}
+
+/* GOOGLE TRANSLATE */
+
+.translated-ltr {
+    margin-top: -40px;
+}
+
+.translated-ltr {
+    margin-top: -40px;
+}
+
+.goog-te-banner-frame {
+    display: none;
+}
+
+.goog-logo-link {
+    display: none !important;
+}
+
+.goog-te-gadget {
+    color: transparent !important;
+}
+
+
+select.goog-te-combo {
+    background-color: white;
+    color: rgb(24, 23, 23);
+    padding: .2rem;
+    border-radius: .3rem;
+    outline: none;
+    margin-top: 1rem !important;
+    margin-bottom: 0px !important;
+}
+
+/* HERO PAGE */
+.hero {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 25%;
+    left: 50% !important;
+    transform: translateY(-25%) translateX(-50%) !important;
+    left: 10%;
+    margin-right: 1rem;
+}
+
+.hero h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400 !important;
+    text-align: center !important;
+    letter-spacing: .4rem;
+}
+
+.hero p {
+    line-height: 1.7 !important;
+}
+
+/* PROMOTION */
+#promotion {
+    font-size: 2.7rem !important;
+}
+
+
+/* BUTTON */
+.btn-1 {
+    font-size: 1.15rem !important;
+    font-weight: 800 !important;
+    letter-spacing: .1rem !important;
+    margin-top: 3rem;
+    background-color: #4feaff !important;
+    color: black !important;
+    /*opacity: .85;*/
+    transition: all .2s ease-in !important;
+
+}
+
+.btn-2 {
+    margin-top: 3rem;
+    background-color: #4feaff !important;
+    color: black !important;
+    font-size: 1.15rem !important;
+    font-weight: 800 !important;
+    letter-spacing: .1rem !important;
+    margin-left: .69rem;
+    /*opacity: .85;*/
+    transition: all .2s ease-in !important;
+}
+
+.btn-1:hover {
+    opacity: 2;
+    transform: scale(1.15) translateX(-2%);
+}
+
+.btn-2:hover {
+    opacity: 2;
+    transform: scale(1.15) translateX(2%);
+}
+
+#quote-btn {
+    display: inline-block;
+    width: 80%;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+/* CARD */
+.card {
+    height: 84%;
+    padding: .5rem;
+    cursor: pointer;
+    margin: .8rem;
+    margin-top: 2.1rem;
+    box-shadow: .2rem .3rem .6rem rgba(0, 0, 0, .35);
+    cursor: pointer !important;
+}
+
+.card:hover {
+    border: .14rem solid #007bff !important;
+    cursor: pointer !important;
+}
+
+.card-body:hover {
+    cursor: pointer !important;
+}
+
+.activeRadio {
+    border: .25rem solid #007bff !important;
+    pointer-events: none;
+}
+
+input[name="radio1"] {
+    visibility: hidden;
+}
+
+/* Customer review */
+#customer-review-card {
+    pointer-events: none !important;
+}
+
+/* CONTACT */
+#contact-img {
+    width: 100%;
+}
+
+#contact-border {
+    border: .09rem solid #007bff;
+    background-color: #007bff;
+    color: white;
+    border-radius: .3rem;
+    padding: .35rem 0;
+    margin-bottom: 1.9rem;
+    transition: all .5s ease;
+}
+
+.fas.fa-phone-square-alt {
+    color: white !important;
+}
+
+ul.social {
+    list-style-type: none;
+    display: flex;
+    max-width: 19rem;
+    padding: 0;
+    margin: 0 auto;
+}
+
+ul.social li {
+    margin: 0 auto;
+    font-size: 2.15em;
+}
+
+.fab {
+    color: #007bff !important;
+    transition: .15s ease;
+}
+
+.fab:hover {
+    transform: translateY(-3px);
+    opacity: .85;
+}
+
+#contact-link {
+    color: black;
+    font-size: 1.2rem;
+}
+
+#contact-link:hover {
+    color: #d4663a;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 550px) {
+    .hero h1 {
+        font-size: 3rem !important;
+    }
+
+    .hero {
+        left: 50% !important;
+
+    }
+
+    #promotion {
+        font-size: 2.1rem !important;
+    }
+}
+
+
+/* Small devices (landscape phones, less than 768px)*/
+@media screen and (min-width: 768px) {
+    .hero h1 {
+        font-size: 3.5rem !important;
+    }
+
+    #promotion {
+        font-size: 2.4rem !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hero h1 {
+        font-size: 1.9rem !important;
+        /*font-weight: 200!important;*/
+    }
+
+    #promotion {
+        font-size: 1.7rem !important;
+
+    }
+
+    #motto {
+        font-size: 1rem !important;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .hero h1 {
+        font-size: 2.5rem !important;
+    }
+
+    #motto {
+        font-size: 1.2rem !important;
+    }
+
+}
+
+#supernova {
+    color: #4feaff;
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media screen and (min-width: 576px) {
+    .hero h1 {
+        font-size: 3rem !important;
+    }
+
+    #promotion {
+        font-size: 2.1rem !important;
+    }
+
+    #motto {
+        font-size: 1.3rem !important;
+    }
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media screen and (min-width: 768px) {
+    .hero h1 {
+        font-size: 3.4rem !important;
+    }
+
+    #promotion {
+        font-size: 2.2rem !important;
+    }
+
+    #motto {
+        font-size: 1.4rem !important;
+    }
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media screen and (min-width: 992px) {
+    .hero h1 {
+        font-size: 3.7rem !important;
+    }
+
+    #promotion {
+        font-size: 2.5rem !important;
+    }
+
+    #motto {
+        font-size: 1.55rem !important;
+    }
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media screen and (min-width: 1200px) {
+    .hero h1 {
+        font-size: 4.25rem !important;
+    }
+
+    #motto {
+        font-size: 1.7rem !important;
+    }
+}
