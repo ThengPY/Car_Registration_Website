@@ -2,34 +2,34 @@
 
 html,
 body {
-    scroll-behavior: smooth;
-    font-family: 'Poppins', sans-serif !important;
-    font-size: 16px;
-    letter-spacing: .08rem;
-    user-select: none;
+    scroll-behavior    : smooth;
+    font-family        : 'Poppins', sans-serif !important;
+    font-size          : 16px;
+    letter-spacing     : .08rem;
+    user-select        : none;
     -webkit-user-select: none;
-    -moz-user-select: none;
-    scroll-padding-top: 4.3rem;
+    -moz-user-select   : none;
+    scroll-padding-top : 4.3rem;
 }
 
 p {
     line-height: 1.6;
-    max-width: 600px;
+    max-width  : 600px;
 }
 
 /* BACKGROUND IMAGE */
 .container-fluid.background {
-    height: 100vh;
-    width: 100%;
-    background-image: url('img/bg-img.jpg');
-    background-position: center;
+    height                 : 100vh;
+    width                  : 100%;
+    background-image       : url('img/bg-img.jpg');
+    background-position    : center;
     /*background-attachment: fixed;*/
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-    box-shadow: 0 1rem 1rem rgba(0, 0, 0, .35);
-    margin-bottom: 2rem;
-    /*overflow-x: hidden!important;*/
+    background-size        : cover;
+    background-repeat      : no-repeat;
+    position               : relative;
+    box-shadow             : 0 1rem 1rem rgba(0, 0, 0, .35);
+    margin-bottom          : 2rem;
+    /*overflow-x           : hidden!important;*/
 }
 
 /* NAVIGATION BAR */
@@ -40,17 +40,17 @@ p {
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
-    outline: none;
+    outline   : none;
     box-shadow: none;
 }
 
 .nav-link,
 .navbar-brand {
-    color: rgb(255, 255, 255) !important;
-    font-weight: 500 !important;
-    font-size: 1.4rem;
+    color         : rgb(255, 255, 255) !important;
+    font-weight   : 500 !important;
+    font-size     : 1.4rem;
     letter-spacing: .15rem !important;
-    word-spacing: 1rem;
+    word-spacing  : 1rem;
 }
 
 .nav-link:hover {
@@ -58,7 +58,7 @@ p {
 }
 
 .active {
-    color: #4feaff !important;
+    color        : #4feaff !important;
     border-bottom: 1px solid #4feaff;
 }
 
@@ -67,13 +67,13 @@ p {
 }
 
 .navbar {
-    opacity: 1;
+    opacity   : 1;
     transition: opacity 0.5s ease;
 }
 
 .navbar-hide {
     pointer-events: none;
-    opacity: 0;
+    opacity       : 0;
 }
 
 /* GOOGLE TRANSLATE */
@@ -101,29 +101,29 @@ p {
 
 select.goog-te-combo {
     background-color: white;
-    color: rgb(24, 23, 23);
-    padding: .2rem;
-    border-radius: .3rem;
-    outline: none;
-    margin-top: 1rem !important;
-    margin-bottom: 0px !important;
+    color           : rgb(24, 23, 23);
+    padding         : .2rem;
+    border-radius   : .3rem;
+    outline         : none;
+    margin-top      : 1rem !important;
+    margin-bottom   : 0px !important;
 }
 
 /* HERO PAGE */
 .hero {
-    color: rgb(255, 255, 255);
-    position: absolute;
-    top: 25%;
-    left: 50% !important;
-    transform: translateY(-25%) translateX(-50%) !important;
-    left: 10%;
+    color       : rgb(255, 255, 255);
+    position    : absolute;
+    top         : 25%;
+    left        : 50% !important;
+    transform   : translateY(-25%) translateX(-50%) !important;
+    left        : 10%;
     margin-right: 1rem;
 }
 
 .hero h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400 !important;
-    text-align: center !important;
+    font-family   : 'Montserrat', sans-serif;
+    font-weight   : 400 !important;
+    text-align    : center !important;
     letter-spacing: .4rem;
 }
 
@@ -139,55 +139,55 @@ select.goog-te-combo {
 
 /* BUTTON */
 .btn-1 {
-    font-size: 1.15rem !important;
-    font-weight: 800 !important;
-    letter-spacing: .1rem !important;
-    margin-top: 3rem;
+    font-size       : 1.15rem !important;
+    font-weight     : 800 !important;
+    letter-spacing  : .1rem !important;
+    margin-top      : 3rem;
     background-color: #4feaff !important;
-    color: black !important;
-    /*opacity: .85;*/
-    transition: all .2s ease-in !important;
+    color           : black !important;
+    /*opacity       : .85;*/
+    transition      : all .2s ease-in !important;
 
 }
 
 .btn-2 {
-    margin-top: 3rem;
+    margin-top      : 3rem;
     background-color: #4feaff !important;
-    color: black !important;
-    font-size: 1.15rem !important;
-    font-weight: 800 !important;
-    letter-spacing: .1rem !important;
-    margin-left: .69rem;
-    /*opacity: .85;*/
-    transition: all .2s ease-in !important;
+    color           : black !important;
+    font-size       : 1.15rem !important;
+    font-weight     : 800 !important;
+    letter-spacing  : .1rem !important;
+    margin-left     : .69rem;
+    /*opacity       : .85;*/
+    transition      : all .2s ease-in !important;
 }
 
 .btn-1:hover {
-    opacity: 2;
+    opacity  : 2;
     transform: scale(1.15) translateX(-2%);
 }
 
 .btn-2:hover {
-    opacity: 2;
+    opacity  : 2;
     transform: scale(1.15) translateX(2%);
 }
 
 #quote-btn {
-    display: inline-block;
-    width: 80%;
-    font-size: 1.2rem;
+    display    : inline-block;
+    width      : 80%;
+    font-size  : 1.2rem;
     font-weight: 700;
 }
 
 /* CARD */
 .card {
-    height: 84%;
-    padding: .5rem;
-    cursor: pointer;
-    margin: .8rem;
+    height    : 84%;
+    padding   : .5rem;
+    cursor    : pointer;
+    margin    : .8rem;
     margin-top: 2.1rem;
     box-shadow: .2rem .3rem .6rem rgba(0, 0, 0, .35);
-    cursor: pointer !important;
+    cursor    : pointer !important;
 }
 
 .card:hover {
@@ -200,7 +200,7 @@ select.goog-te-combo {
 }
 
 .activeRadio {
-    border: .25rem solid #007bff !important;
+    border        : .25rem solid #007bff !important;
     pointer-events: none;
 }
 
@@ -219,13 +219,13 @@ input[name="radio1"] {
 }
 
 #contact-border {
-    border: .09rem solid #007bff;
+    border          : .09rem solid #007bff;
     background-color: #007bff;
-    color: white;
-    border-radius: .3rem;
-    padding: .35rem 0;
-    margin-bottom: 1.9rem;
-    transition: all .5s ease;
+    color           : white;
+    border-radius   : .3rem;
+    padding         : .35rem 0;
+    margin-bottom   : 1.9rem;
+    transition      : all .5s ease;
 }
 
 .fas.fa-phone-square-alt {
@@ -234,29 +234,29 @@ input[name="radio1"] {
 
 ul.social {
     list-style-type: none;
-    display: flex;
-    max-width: 19rem;
-    padding: 0;
-    margin: 0 auto;
+    display        : flex;
+    max-width      : 19rem;
+    padding        : 0;
+    margin         : 0 auto;
 }
 
 ul.social li {
-    margin: 0 auto;
+    margin   : 0 auto;
     font-size: 2.15em;
 }
 
 .fab {
-    color: #007bff !important;
+    color     : #007bff !important;
     transition: .15s ease;
 }
 
 .fab:hover {
     transform: translateY(-3px);
-    opacity: .85;
+    opacity  : .85;
 }
 
 #contact-link {
-    color: black;
+    color    : black;
     font-size: 1.2rem;
 }
 
@@ -295,7 +295,7 @@ ul.social li {
 
 @media screen and (max-width: 480px) {
     .hero h1 {
-        font-size: 1.9rem !important;
+        font-size    : 1.9rem !important;
         /*font-weight: 200!important;*/
     }
 
